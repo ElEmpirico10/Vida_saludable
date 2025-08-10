@@ -1,0 +1,71 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.navbar-nav .nav-link{
+  padding: 4px 8px;
+}
+
+.navbar-nav .nav-item:hover{
+  background-color: #3c5a72;
+  border-radius: 20px;
+  text-decoration: underline white;
+  scale: 1.1;
+}
+
+.carousel-inner img{
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity 1s ease; 
+  }
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 10px;
+  }
+
+.contenedor h5{
+    font-weight: bold;
+}
+
+.contenedor .card{
+    transition: 1s ease;
+    width: 400px;
+    height: 400px;
+}
+
+  .contenedor .card:hover{
+    scale: 101%;
+    box-shadow: 0 0 10px black;
+}
+
+.redes_sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.redes_sociales img {
+  height: 30px; 
+  display: inline;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: rgba(225, 225, 225, 0.6);
+  transition: 0.3s ease;
+}
+
+.redes_sociales img:hover{
+  scale: 1.04;
+  background-color: white;
+  cursor: pointer;
+}
