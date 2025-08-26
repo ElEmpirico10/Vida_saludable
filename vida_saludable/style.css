@@ -7,10 +7,13 @@ body{
   padding: 4px 8px;
 }
 
+.navbar-nav .nav-item{
+  transition: 0.4ss ease;
+}
+
 .navbar-nav .nav-item:hover{
   background-color: #3c5a72;
   border-radius: 20px;
-  text-decoration: underline white;
   scale: 1.1;
 }
 
@@ -68,4 +71,15 @@ body{
   scale: 1.04;
   background-color: white;
   cursor: pointer;
+}
+
+.container .carta {
+  transition: 0.4s ease;
+  border-radius: 20px;
+}
+
+.container .carta:hover{
+  scale: 1.01;
+  box-shadow: 0 0 10px black;
+  
 }
