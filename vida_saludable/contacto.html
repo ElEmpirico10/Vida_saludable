@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Vida Saludable</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Alimentacion.html">Alimentación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ejercicios.html">Ejercicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="medicina_y_suplementos.html">Medicina y suplementos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="salud.html">Salud</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recetarios.html">Recetarios</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <main class="container my-5 flex-grow-1">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card shadow-lg border-0 rounded-3">
+                    <div class="card-body p-4">
+                        <h3 class="text-center mb-4">Contáctanos</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre completo</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Nombre completo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="asunto" class="form-label">Asunto</label>
+                                <input type="text" class="form-control" id="asunto" placeholder="Motivo del mensaje">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-success btn-lg">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="redes_sociales">
+            <span>&copy; 2025 Vida Saludable by Brallan |</span>
+            <span>Redes sociales:</span>
+            <a href="https://www.instagram.com/brallancastro10"><img src="../imagenes/instagram.png" alt="Logo instagram"></a>
+            <a href="https://wa.link/ef9gww"><img src="../imagenes/whatsapp.png" alt="Logo whatsapp"></a>
+            <a href="https://www.facebook.com/brayandejesus.echeberriacastro"><img src="../imagenes/facebook.png" alt="Logo facebook"></a>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
